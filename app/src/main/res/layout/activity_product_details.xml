@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bourimanshop.ProductDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/product_name_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_image_details"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Product name "
+        android:textColor="@color/EbmBlue"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="161dp"
+
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/product_description_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name_details"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/product_price_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_description_details"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Price"
+        android:textColor="@color/red"
+        android:textSize="18dp" />
+
+
+    <ImageView
+        android:id="@+id/product_image_details"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars"
+
+        />
+
+    <Button
+        android:id="@+id/pd_add_to_cart_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:text="Ajouter au panier"
+        android:textColor="@android:color/white"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/Quantity_plus"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/product_price_details"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:gravity="end"
+        android:onClick="Plus"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Quantity_moins"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/product_price_details"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:gravity="end"
+        android:onClick="Moins"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Product_quantity"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_price_details"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="121dp"
+
+        android:layout_marginRight="121dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/EbmBlue"
+        android:textSize="30dp" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "838529248677",
+    "firebase_url": "https://ebmshop-f19b3.firebaseio.com",
+    "project_id": "ebmshop-f19b3",
+    "storage_bucket": "ebmshop-f19b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838529248677:android:0ea5fb8097f667d8",
+        "android_client_info": {
+          "package_name": "com.example.ebm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838529248677-k54lhdo3pmohd7uebpfp7es3p38tkljt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ebm",
+            "certificate_hash": "10407299cf90c8aaf7142178474084c0f2190fd2"
+          }
+        },
+        {
+          "client_id": "838529248677-8ug48tb0cvk5cqmdbpq0uc6sna5h04mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvX7hI1Mdx4vsoTzl0cWhQjLB1Xlo55us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838529248677-8ug48tb0cvk5cqmdbpq0uc6sna5h04mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

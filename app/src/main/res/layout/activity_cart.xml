@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bourimanshop.CartActivity">
+
+    <Button
+        android:id="@+id/next_process_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Suivant"
+        android:visibility="invisible"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttons"
+        android:textAlignment="center"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/r111"
+        android:background="@color/EbmBlue"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Votre panier est vide"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/EbmBlue"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:text="Félicitations, votre commande a été passée avec succès, bientôt ça va être vérifié "
+        android:textSize="16dp"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r111"
+        android:layout_above="@+id/next_process_btn"
+        android:id="@+id/cart_list"/>
+</RelativeLayout>

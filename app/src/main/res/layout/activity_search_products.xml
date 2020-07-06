@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bourimanshop.SearchProductsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/r5"
+        android:background="@color/EbmBlue"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/search_product_name"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@color/common_google_signin_btn_text_dark_pressed"
+            android:hint="Rechercher un produit"
+            android:padding="9dp"
+            android:singleLine="true"
+            android:textColorHint="@color/EbmGrey"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/search_btn"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/search_product_name"
+            android:src="@drawable/ic_search_black_24dp"
+            android:padding="9dp"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="12dp"
+            android:textStyle="bold"
+
+            />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r5"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

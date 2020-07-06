@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BourimanShop</string>
+    <string name="textview">TextView</string>
+    <string name="s_enregistrer">S\'enregistrer</string>
+    <string name="nom_d_utilisateur">Nom d\'utilisateur</string>
+    <string name="imagelogo">LogoEBM</string>
+    <string name="password">Password</string>
+    <string name="title_ordinateurs_list">Items</string>
+    <string name="title_ordinateurs_detail">Ordinateurs Detail</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="com.example.bourimanshop.ConfirmmFinalOrderActivity">
+
+    <RelativeLayout
+        android:id="@+id/relLiv"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veuillez saisir les informations suivantes "
+            android:textAlignment="center"
+            android:textColor="@color/EbmBlue"
+            android:textSize="23dp"
+
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/livprenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relLiv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/EbmBlue"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Prénom"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/livnom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/livprenom"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/EbmBlue"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/livaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/livnom"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:inputType="text"
+        android:layout_marginEnd="14dp"
+        android:backgroundTint="@color/EbmBlue"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:maxLines="2"
+        android:gravity="center"
+        android:hint="Adresse" />
+
+    <EditText
+        android:id="@+id/livville"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/livaddress"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:backgroundTint="@color/EbmBlue"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ville"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/livtelephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/livville"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/EbmBlue"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Telephone"
+        android:inputType="number|phone"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/confirmsorderbtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/inputs"
+        android:gravity="center"
+        android:text="Valider"
+        android:layout_below="@id/livtelephone"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/EbmBlue"
+        android:textSize="16dp" />
+
+</RelativeLayout>
