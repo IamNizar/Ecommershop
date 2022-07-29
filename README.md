@@ -1,5 +1,5 @@
 # Bourimanshop (E-commerce Mobile App) 
-> This is an android m-commerce app with Firebase's realtime database,Admin/customer roles and access, Admin Product Management (CRUD operations) and User Dashboard (Profile settings , Search ...)</br>
+> This is an android E-commerce app with Firebase's realtime database,Admin/customer roles and access, Admin Product Management (CRUD operations) and User Dashboard (Profile settings , Search ...)</br>
 The application has 2 roles the user can log in as an admin or a customer.
 ## Login and Sign-up Screens :
 <p float="left">
