@@ -1,5 +1,18 @@
-# Bourimanshop (E-commerce Mobile App)
-> This is an android m-commerce app with Firebase's realtime database,Admin/client roles and access, Admin Product Management (CRUD operations) and User Dashboard (Profile settings , Search ...) .<br/>
+# Bourimanshop (E-commerce Mobile App) 
+> This is an android m-commerce app with Firebase's realtime database,Admin/customer roles and access, Admin Product Management (CRUD operations) and User Dashboard (Profile settings , Search ...)</br>
+The application has 2 roles the user can log in as an admin or a customer.
+## Login and Sign-up Screens :
+<p float="left">
+<img width="259" alt="Screen Shot 2020-07-12 at 16 50 30" src="https://user-images.githubusercontent.com/44340792/181788217-b5100918-1f3b-4e9f-9175-8a12b3812a28.png">
+<img width="262" alt="Screen Shot 2019-11-27 at 15 52 20" src="https://user-images.githubusercontent.com/44340792/181788229-1f5d282d-02bb-4090-b5f7-abed059d53d1.png">
+<img width="256" alt="Screen Shot 2020-07-12 at 00 03 53" src="https://user-images.githubusercontent.com/44340792/181788240-35bc4680-fcb3-4f83-a9fd-7c52a88603d3.png">
+</p>
+
+## Spalsh Screen :
+<p align="center">
+<img width="257" alt="Screen Shot 2020-07-11 at 23 24 05" src="https://user-images.githubusercontent.com/44340792/181788329-71653cca-b260-40d0-a836-db76bed6ee0b.png">
+</p>
+
 ## the Admin Access :
 > If the user has an admin role he has the next privileges :
 + Add new products in all 5 categories
